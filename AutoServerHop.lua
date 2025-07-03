@@ -86,8 +86,6 @@ if not succ then
     return
 end
 
-queueteleport([[loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/Amity/main/AutoServerHop.lua"))()]])
-
 while #servers > 0 do
     local random = servers[math.random(1,#servers)]
     
