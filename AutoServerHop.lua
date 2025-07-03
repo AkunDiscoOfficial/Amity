@@ -1,6 +1,5 @@
 if syn and syn.request then request = syn.request end
-local queueteleport = syn and syn.queue_on_teleport or queue_on_teleport
-assert(typeof(request) and typeof(queueteleport) and typeof(isfile) and typeof(makefolder) and typeof(isfolder) and typeof(readfile) and typeof(writefile) == 'function',"Missing functions")
+assert(typeof(request) and typeof(isfile) and typeof(makefolder) and typeof(isfolder) and typeof(readfile) and typeof(writefile) == 'function',"Missing functions")
 
 local game = game
 local PlaceId = game.PlaceId
